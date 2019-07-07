@@ -1,0 +1,127 @@
+.text > p {
+  margin-left: 45%;
+  font-weight: none;
+  font-family: 'roboto','noto',sans-serif;
+}
+
+.text > span {
+  margin-left: 47%;
+  /* font-weight: none; */
+  margin-bottom: 0.5em;
+  color: grey;
+  font-family: 'roboto','noto',sans-serif;
+  font-size: 0.8em;
+}
+
+/* .text{
+    margin-bottom: 10%;
+} */
+
+/* .cart-image{
+    margin-bottom: 5%;
+} */
+
+.go-to-cart-page {
+  width: 30%;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+
+.go-to-cart-page > p{
+  margin: 0;
+  margin-bottom: 0.5em;
+  margin-top:-1em;
+  margin-left:2em;
+  color: grey;
+  font-family: 'roboto','noto',sans-serif;
+  font-size: 0.8em;
+}
+
+.cart-image > img {
+  width: 100%;
+}
+
+.go-to-cart-page-text {
+  text-decoration-line: none;
+  color: black;
+  /* margin-left: 25%; */
+}
+
+.go-to-cart-page-text > p {
+  /* margin: 8% 0 0 20%; */
+  margin-left: 35%;
+  font-weight:500;
+  /* margin-top:1em; */
+}
+
+.go-to-cart-page > p {
+  font-weight: none;
+  font-family: 'roboto','noto',sans-serif;
+  /* margin: 2% 0 0 35%; */
+  margin-left: 45%;
+}
+
+.parent-cart {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+
+/*media query for mobile */
+
+@media only screen and (max-width: 500px) {
+  .go-to-cart-page {
+    width: 49%;
+    margin: 0%;
+  }
+
+  .text > p {
+    margin-left: 35%;
+  }
+
+  .text > span {
+    margin-left: 40%;
+  }
+
+  .text {
+    margin-bottom: 10%;
+  }
+
+  .navigation-links {
+    display: none;
+  }
+
+  .mens-outerwear-division-class {
+    display: none;
+  }
+
+  .go-to-cart-page-text > p {
+    margin-left: 25%;
+    font-size: 0.9em;
+  }
+
+  .go-to-cart-page > p {
+    margin-left: 40%;
+    font-size: 0.9em;
+  }
+}
+
+/*media query for tablet */
+
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .go-to-cart-page {
+    width: 25;
+  }
+
+  .go-to-cart-page-text > p {
+    margin-left: 20%;
+    font-size: 0.9em;
+  }
+
+  .go-to-cart-page > p {
+    /* margin-left: 45%; */
+    font-size: 0.9em;
+  }
+}

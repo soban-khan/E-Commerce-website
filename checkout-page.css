@@ -1,0 +1,214 @@
+.for-checkout {
+  text-align: center;
+  font-weight: 0;
+  font-family: 'roboto','noto',sans-serif;
+  margin: 9% 2% 5% 0;
+  font-size: 1em;
+}
+
+.parent-form {
+  display: flex;
+}
+
+.account-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  /* align-items:  */
+}
+
+.account-info > h5 {
+  font-family: 'roboto','noto',sans-serif;
+  font-size: 0.8em;
+  /* margin-left: 0%; */
+}
+
+h5 {
+  text-align: left;
+  margin-left: 25%;
+  font-family: 'roboto','noto',sans-serif;
+}
+
+.payment-info {
+  width: 50%;
+  justify-content:flex-start;
+}
+
+.expiry{
+  margin-left:7.5em;
+}
+
+.expiry > .main{
+  margin:1em;
+  margin-left:-5em;
+}
+
+/*wesrdcfgvbhnj*/
+body {
+  text-align: center;
+  font-family: 'roboto','noto',sans-serif;
+}
+
+.main {
+  position: relative;
+  widows: 100%;
+  margin-bottom: 3em;
+  /* margin: 100px; */
+}
+.hello {
+  position: absolute;
+  left: 25%;
+  top: 5%;
+  font-size: 1em;
+  font-weight: 1000;
+  color: #cecece;
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
+
+input[type="text"]:focus ~ .hello {
+  display: block;
+  color: black;
+  top: -0.5em;
+  font-size: 0.8em;
+}
+
+input[type="text"]:focus ~ .enter {
+  background-color: #0f1f7a;
+  position: absolute;
+  content: " ";
+  height: 1px;
+  right: 45%;
+  top: 42px;
+  transform: scaleX(5);
+}
+
+.enter {
+  transition: all ease 0.5s;
+  width: 10.1%;
+  transform: scaleX(1);
+}
+
+textarea,input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #cecece;
+  height: 40px;
+  width: 50%;
+}
+
+/* input:focus{
+    content
+  } */
+
+.size {
+  border: none;
+  /* border-radius: 4px; */
+  background-color: white;
+  width: 65%;
+  padding-left: 5em;
+  margin: 1em;
+  margin-left: 7em;
+}
+
+.size > option {
+  font-size: 1.5em;
+}
+
+.for-footer {
+  margin-top: 10em;
+}
+
+.expiry {
+  display: flex;
+  justify-content: space-around;
+}
+
+.size1 {
+  border: none;
+  background-color: white;
+}
+
+/* #a{
+    background-color: yellow;
+    text-align: left;
+}
+
+#a > input{
+    margin: 0;
+} */
+/*dxfcgvbhjnkml;hguf*/
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'roboto','noto',sans-serif;
+  margin:1em;
+}
+
+.total {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'roboto','noto',sans-serif;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+@media only screen and (max-width: 450px) {
+  .parent-form {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  h5 {
+    text-align: left;
+    margin-left: 2em;
+  }
+
+  .account-info {
+    width: 100%;
+  }
+
+  .payment-info {
+    width: 100%;
+  }
+
+  .enter {
+    width: 16%;
+  }
+
+  .hello {
+    left: 8%;
+  }
+
+  textarea,
+  input {
+    width: 80%;
+  }
+
+  .shop-now-button-class {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    bottom: 0;
+    background-color: blue;
+    color: white;
+  }
+
+  .shop-now-button-class > a {
+    margin: 1em;
+    text-decoration-line: none;
+    font-family: 'roboto','noto',sans-serif;
+    padding: 0.7em 3em;
+    color: white;
+    border: 0;
+  }
+
+  .for-footer {
+    display: none;
+  }
+}

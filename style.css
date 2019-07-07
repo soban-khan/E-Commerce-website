@@ -1,0 +1,79 @@
+.for-header > a {
+  letter-spacing: 0.4em;
+  font-family: 'roboto','noto',sans-serif;
+  text-align: center;
+  margin-top: 15%;
+  text-decoration-line: none;
+  color: black;
+}
+
+.navigation-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'roboto','noto',sans-serif;
+  font-size: 0.8em;
+  margin: 2.5% 28% 0.7em 24.7%;
+  color: grey;
+}
+
+.navigation-links > li {
+  margin: 3%;
+}
+
+.navigation-links > li > a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.cart {
+  float: right;
+  position: relative;
+  /* top: -.5em; */
+  right: 1.5em;
+}
+
+.shop-now-button-class {
+  margin: 1.3em 0 1.3em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#202020;
+}
+
+.shop-now-button-class > p {
+  font-family: 'roboto','noto',sans-serif;
+  font-size: 1em;
+  font-weight: 0;
+  color:#202020;
+}
+
+.shop-now-button-class > a {
+  /* font-size:.5em; */
+  margin: 1em;
+  text-decoration-line: none;
+  font-family: 'roboto','noto',sans-serif;
+  border: 2px solid black;;
+  padding: 0.8em 2.9em;
+  color:#202020;
+  font-size:.9em;
+}
+
+.shop-now-button-class > a:active {
+  background-color: black;
+  color: white;
+}
+
+.for-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.for-footer > p:first-child {
+  margin-bottom: 0.5em;
+  color: grey;
+  font-family: 'roboto','noto',sans-serif;
+  font-size: 0.8em;
+}
